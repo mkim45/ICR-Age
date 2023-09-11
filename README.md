@@ -1,1 +1,3 @@
 # ICR_Age
+
+As part of a Kaggle competition from InVitro Cell Research (ICR), I built predictive machine learning models to determine the probability that a patient had one of three age-related medical conditions based on various masked health characteristics. I used Python and various libraries to do EDA on 50+ predictors and the binary response variable, and I tested the performance of individual XGBoost, Random Forest, Decision Tree Classifier, TabPFN, CatBoost, LightGBM, AdaBoost, and Gradient Boosting Classifiers. Additionally, these individual models were fine-tuned for hyperparameters using Optuna trials and ensembled using both stacking and voting.
